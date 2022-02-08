@@ -1,0 +1,54 @@
+@import "@/style/Variables.scss";
+.main {
+  margin: 0 90px;
+  display: flex;
+  justify-content: space-between;
+
+  .left-side {
+    .text {
+      width: 510px;
+      margin-bottom: 50px;
+      .title {
+        font-size: 38px;
+        margin-bottom: 25px;
+      }
+
+      p {
+        font-size: 17px;
+        line-height: 30px;
+      }
+    }
+
+    .info-container {
+      width: 90%;
+      margin: 10px 0;
+      padding: 20px;
+      display: flex;
+
+      .info-img {
+        align-self: center;
+      }
+
+      .info {
+        margin: 0 15px;
+        .par-name {
+          font-size: 20px;
+          margin-bottom: 15px;
+        }
+
+        .blue {
+          color: $blue;
+        }
+      }
+    }
+
+    .shadowed {
+      border: 1px solid #f0f0f0;
+      box-shadow: 2px 30px 20px #f0f0f0;
+    }
+  }
+
+  .right-side {
+    align-self: center;
+  }
+}
