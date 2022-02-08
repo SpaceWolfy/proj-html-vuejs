@@ -1,0 +1,21 @@
+@import "./Variables.scss";
+
+.general-btn {
+  background-color: $blue;
+  color: white;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 20px;
+  font-weight: bold;
+
+  &:hover {
+    background-color: $btnHoverColor;
+  }
+}
+
+i,
+li,
+.general-btn {
+  cursor: pointer;
+}
