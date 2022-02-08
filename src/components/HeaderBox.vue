@@ -13,7 +13,7 @@
 
       <div class="icon-functions">
         <i class="fas fa-search"></i>
-        <i class="fas fa-shopping-cart"></i>
+        <i class="fas fa-shopping-cart"><div class="shop-num">0</div></i>
       </div>
 
       <button class="general-btn">Get Started</button>
@@ -86,6 +86,23 @@ header {
 
         &:hover {
           color: $blue;
+        }
+      }
+
+      .fa-shopping-cart {
+        position: relative;
+
+        .shop-num {
+          position: absolute;
+          top: -12px;
+          right: -10px;
+          background-color: $blue;
+          color: white;
+          padding: 3px 7px;
+          text-align: center;
+          border-radius: 50%;
+          font-size: 13px;
+          z-index: -1;
         }
       }
     }
