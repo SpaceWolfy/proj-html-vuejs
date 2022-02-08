@@ -37,6 +37,6 @@ export default {
 @import "@/style/Main.scss";
 #app {
   margin: 0 auto;
-  width: 1250px;
+  width: 1400px;
 }
 </style>
