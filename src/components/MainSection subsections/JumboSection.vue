@@ -41,7 +41,6 @@ export default {};
     }
 
     p {
-      color: #8e989f;
       font-size: 18px;
       line-height: 30px;
       margin-bottom: 50px;
