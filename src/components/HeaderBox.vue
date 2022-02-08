@@ -4,7 +4,7 @@
 
     <div class="right-side">
       <nav>
-        <ul v-for="items in headerNav" :key="items">
+        <ul v-for="(items, index) in headerNav" :key="index">
           <li>
             <a :href="`${items.href}`">{{ items.voice }}</a>
           </li>
@@ -24,7 +24,7 @@
 <script>
 export default {
   props: {
-    headerNav: Object,
+    headerNav: Array,
   },
 };
 </script>
