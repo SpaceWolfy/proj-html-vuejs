@@ -5,7 +5,7 @@
     </div>
     <div v-else>
       <header-box :headerNav="headerNav" />
-      <main-section />
+      <main-section :boxArray="boxArray" />
       <footer-box />
     </div>
   </div>
@@ -45,6 +45,42 @@ export default {
         {
           voice: "Contact US",
           href: "#contacts",
+        },
+      ],
+
+      boxArray: [
+        {
+          title: "Customized Invoices",
+          image: require("./assets/icons/chart-ico.jpg"),
+        },
+
+        {
+          title: "Stock Management",
+          image: require("./assets/icons/plane-ico.jpg"),
+        },
+        {
+          title: "Receivable & Payables",
+          image: require("./assets/icons/medal-ico.jpg"),
+        },
+        {
+          title: "Manage Buying",
+          image: require("./assets/icons/person-ico.jpg"),
+        },
+        {
+          title: "Powerful & Secure",
+          image: require("./assets/icons/intersection-ico.jpg"),
+        },
+        {
+          title: "Fastest Return Filing",
+          image: require("./assets/icons/medal-ico.jpg"),
+        },
+        {
+          title: "Monthly Detailed",
+          image: require("./assets/icons/exam-ico.jpg"),
+        },
+        {
+          title: "Product Management",
+          image: require("./assets/icons/like-ico.jpg"),
         },
       ],
       isLoading: false,
