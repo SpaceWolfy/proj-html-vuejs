@@ -3,13 +3,13 @@
 
 header {
   height: 70px;
-  padding-top: 12px;
+  margin: 12px 130px 20px 130px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 
   .logo {
     width: 45px;
-    margin-right: 100px;
+
     img {
       width: 100%;
     }
