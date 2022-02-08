@@ -6,7 +6,7 @@
 
     <tip-section />
 
-    <feature-section />
+    <feature-section :boxArray="boxArray" />
 
     <testimonials />
 
@@ -34,6 +34,9 @@ export default {
     Testimonials,
     PostsSection,
     ContactSection,
+  },
+  props: {
+    boxArray: Array,
   },
 };
 </script>
