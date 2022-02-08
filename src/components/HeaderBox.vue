@@ -6,7 +6,7 @@
       <nav>
         <ul v-for="items in headerNav" :key="items">
           <li>
-            <a href="">{{ items }}</a>
+            <a :href="`${items.href}`">{{ items.voice }}</a>
           </li>
         </ul>
       </nav>
@@ -24,7 +24,7 @@
 <script>
 export default {
   props: {
-    headerNav: Array,
+    headerNav: Object,
   },
 };
 </script>

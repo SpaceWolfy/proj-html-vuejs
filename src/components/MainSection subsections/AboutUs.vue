@@ -1,5 +1,5 @@
 <template>
-  <div class="main">
+  <div class="main" id="about-us">
     <div class="section" v-for="number in 3" :key="number">
       <div class="img-24"><img src="../../assets/img/24.png" alt="" /></div>
 

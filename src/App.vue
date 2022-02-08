@@ -23,7 +23,30 @@ export default {
   data() {
     return {
       //array semplice - TODO: trasformazione in array di oggetti con link di collegamento alle sezioni del sito
-      headerNav: ["Home", "About Us", "Feature", "Testimonials", "Contact US"],
+      /* headerNav: ["Home", "About Us", "Feature", "Testimonials", "Contact US"], */
+      headerNav: [
+        {
+          voice: "Home",
+          href: "#app",
+        },
+
+        {
+          voice: "About us",
+          href: "#about-us",
+        },
+        {
+          voice: "Feature",
+          href: "#features",
+        },
+        {
+          voice: "Testimonials",
+          href: "#testimonials",
+        },
+        {
+          voice: "Contact US",
+          href: "#contacts",
+        },
+      ],
       isLoading: false,
     };
   },
