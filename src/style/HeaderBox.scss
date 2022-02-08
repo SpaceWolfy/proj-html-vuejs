@@ -3,9 +3,10 @@
 
 header {
   height: 70px;
-  margin: 12px 130px 20px 130px;
+  margin: 2px 130px 20px 130px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 
   .logo {
     width: 45px;
