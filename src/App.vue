@@ -1,11 +1,19 @@
 <template>
-  <div id="app"></div>
+  <div id="app">
+    <header-box />
+    <main-section />
+    <footer-box />
+  </div>
 </template>
 
 <script>
+import HeaderBox from "./components/HeaderBox.vue";
+import MainSection from "./components/MainSection.vue";
+import FooterBox from "./components/FooterBox.vue";
+
 export default {
   name: "App",
-  components: {},
+  components: { HeaderBox, MainSection, FooterBox },
 };
 </script>
 
