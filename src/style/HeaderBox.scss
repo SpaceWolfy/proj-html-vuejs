@@ -1,0 +1,82 @@
+@import "@/style/Variables.scss";
+@import "@/style/Utility.scss";
+
+header {
+  height: 70px;
+  padding-top: 12px;
+  display: flex;
+  justify-content: space-around;
+
+  .logo {
+    width: 45px;
+    margin-right: 100px;
+    img {
+      width: 100%;
+    }
+  }
+
+  .right-side {
+    display: flex;
+    align-items: center;
+
+    nav {
+      display: flex;
+      padding-bottom: 6px;
+
+      ul {
+        list-style: none;
+        font-size: 17px;
+        padding: 17px;
+
+        li {
+          padding: 17px 0;
+          border-bottom: 2px solid transparent;
+          &:hover {
+            border-bottom: 2px solid $blue;
+          }
+
+          a {
+            color: $darkGrey;
+          }
+
+          &:hover a {
+            color: $blue;
+          }
+        }
+      }
+    }
+
+    .icon-functions {
+      margin: 35px;
+
+      .fas {
+        margin: 15px;
+
+        &:hover {
+          color: $blue;
+        }
+      }
+
+      .fa-shopping-cart {
+        position: relative;
+
+        .shop-num {
+          position: absolute;
+          top: -12px;
+          right: -10px;
+          background-color: $blue;
+          color: white;
+          padding: 3px 7px;
+          text-align: center;
+          border-radius: 50%;
+          font-size: 13px;
+          z-index: -1;
+        }
+
+        &:hover .shop-num {
+          background-color: $btnHoverColor;
+        }
+      }
+    }
+  }
+}
