@@ -24,6 +24,8 @@
       margin: 10px 0;
       padding: 20px;
       display: flex;
+      border: 1px solid transparent;
+      cursor: pointer;
 
       .info-img {
         align-self: center;
@@ -39,6 +41,15 @@
         .blue {
           color: $blue;
         }
+      }
+
+      &:hover {
+        border: 1px solid #f0f0f0;
+        box-shadow: 2px 30px 20px #f0f0f0;
+      }
+
+      &:hover .grey {
+        color: $blue;
       }
     }
 

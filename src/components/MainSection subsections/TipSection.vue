@@ -28,7 +28,7 @@
         </div>
 
         <div class="info text">
-          <div class="par-name">Technical SEO Audit</div>
+          <div class="par-name grey">Technical SEO Audit</div>
           <p>
             {{ paragraph }}
           </p>
