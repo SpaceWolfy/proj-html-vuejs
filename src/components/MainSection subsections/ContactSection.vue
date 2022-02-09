@@ -42,13 +42,13 @@
         </div>
 
         <div class="right-side">
-          <img class="logo" src="" alt="" />
+          <img class="logo" src="../../assets/img/35.png" alt="" />
 
-          <div class="street"></div>
+          <div class="street">9840 Shore St. Fond Du Lac, WI 54935</div>
 
           <div class="contacts">
-            <div></div>
-            <div></div>
+            <div>0 1223 456 789</div>
+            <div>mail@sofbox.com</div>
           </div>
 
           <div class="social"></div>
@@ -93,6 +93,7 @@ export default {};
   }
 
   .contact-info {
+    display: flex;
     .left-side {
       .map {
         position: relative;
@@ -157,7 +158,7 @@ export default {};
           background-color: white;
           color: #666666;
           right: 10px;
-          bottom: 30px;
+          bottom: 25px;
           border: 1px solid #e6e6e6;
           cursor: pointer;
 
@@ -193,6 +194,29 @@ export default {};
             cursor: pointer;
           }
         }
+      }
+    }
+  }
+
+  .right-side {
+    margin-left: 35px;
+
+    .logo {
+      width: 130px;
+    }
+
+    .street {
+      font-size: 23px;
+      margin: 60px 0 30px 0;
+    }
+
+    .contacts {
+      color: #8e989f;
+      font-weight: bold;
+      font-size: 17px;
+
+      div {
+        margin-bottom: 10px;
       }
     }
   }
