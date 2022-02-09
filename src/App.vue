@@ -4,7 +4,9 @@
       <loading-screen />
     </div>
     <div v-else>
-      <header-box :headerNav="headerNav" />
+      <div class="container">
+        <header-box :headerNav="headerNav" />
+      </div>
       <main-section :boxArray="boxArray" />
       <footer-box />
     </div>
@@ -95,7 +97,9 @@ export default {
 <style lang="scss">
 @import "@/style/Main.scss";
 #app {
-  margin: 0 auto;
-  width: 1400px;
+  .container {
+    width: 1400px;
+    margin: 0 auto;
+  }
 }
 </style>

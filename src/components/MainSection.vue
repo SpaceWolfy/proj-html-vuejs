@@ -1,18 +1,22 @@
 <template>
   <main>
-    <jumbo-section />
+    <div class="width-cont">
+      <jumbo-section />
 
-    <about-us />
+      <about-us />
 
-    <tip-section />
+      <tip-section />
+    </div>
 
     <feature-section :boxArray="boxArray" />
 
     <testimonials />
 
-    <posts-section />
+    <div class="width-cont">
+      <posts-section />
 
-    <contact-section />
+      <contact-section />
+    </div>
   </main>
 </template>
 
@@ -41,4 +45,9 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.width-cont {
+  width: 1400px;
+  margin: 0 auto;
+}
+</style>

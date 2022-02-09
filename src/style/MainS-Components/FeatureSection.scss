@@ -1,6 +1,8 @@
 @import "@/style/Utility.scss";
 .main {
-  margin: 0 90px;
+  width: 1220px;
+  margin: 0 auto;
+  position: relative;
   header {
     margin: 140px 0px 40px 0px;
     display: flex;
@@ -51,5 +53,11 @@
         margin-bottom: 25px;
       }
     }
+  }
+
+  .circle {
+    position: absolute;
+    top: -130px;
+    left: -700px;
   }
 }
