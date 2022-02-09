@@ -1,8 +1,25 @@
 <template>
-  <div class="card-container">
-    <div class="card" v-for="(person, index) in testimonial" :key="index">
-      <div class="little-border"></div>
-      <div class="mini-border"></div>
+  <div class="container">
+    <div class="card-container">
+      <div class="card" v-for="(person, index) in testimonial" :key="index">
+        <img :src="person.image" alt="" />
+
+        <div class="text">
+          <div class="name">
+            {{ person.personName }}
+            - <span class="role">{{ person.role }}</span>
+          </div>
+
+          <p>{{ person.description }}</p>
+        </div>
+
+        <div class="little-border"></div>
+        <div class="mini-border"></div>
+      </div>
+    </div>
+    <div class="dot-box">
+      <div class="dot"></div>
+      <div class="dot"></div>
     </div>
   </div>
 </template>
@@ -16,41 +33,99 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.card-container {
-  margin-top: 100px;
-  display: flex;
-  justify-content: space-around;
-  padding: 0 35px;
-  .card {
-    height: 300px;
-    width: 500px;
-    position: relative;
-    border-radius: 3px;
-    border: 1px solid #000000;
+@import "@/style/Variables.scss";
 
-    .little-border,
-    .mini-border {
-      position: absolute;
-      left: 0;
-      right: 0;
-      margin: auto;
-      border-bottom-left-radius: 3px;
-      border-bottom-right-radius: 3px;
-      border: 1px solid black;
+.container {
+  margin: 0;
+
+  .card-container {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 130px;
+    .card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 510px;
+      padding: 45px;
+      position: relative;
+      border-radius: 3px;
+      background-image: url("../../assets/img/virgolette.png");
+      background-size: 200px;
+      background-position: center;
+      background-repeat: no-repeat;
+      border: 1px solid #ebebeb;
+      box-shadow: 0px 20px 30px 10px #dedede;
+
+      img {
+        width: 60px;
+        border-radius: 50%;
+        border: 2px solid #f2f2f2;
+        margin-bottom: 45px;
+      }
+
+      .text {
+        .name {
+          text-align: center;
+          font-size: 21px;
+          margin-bottom: 35px;
+
+          .role {
+            font-size: 15px;
+            font-weight: 600;
+            color: #8e989f;
+          }
+        }
+
+        p {
+          line-height: 30px;
+        }
+      }
+
+      .little-border,
+      .mini-border {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        border-bottom-left-radius: 3px;
+        border-bottom-right-radius: 3px;
+        border: 1px solid #ebebeb;
+      }
+
+      .little-border {
+        bottom: -12px;
+        background-color: #f3f3f3;
+        height: 12px;
+        width: 440px;
+      }
+
+      .mini-border {
+        bottom: -24px;
+        background-color: #f3f3f3;
+        height: 12px;
+        width: 410px;
+      }
     }
+  }
 
-    .little-border {
-      bottom: -12px;
-      background-color: red;
-      height: 12px;
-      width: 440px;
-    }
+  .dot-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
 
-    .mini-border {
-      bottom: -21px;
-      background-color: blueviolet;
+    .dot {
+      margin: 0 4px;
       height: 10px;
-      width: 410px;
+      width: 10px;
+      background-color: $darkGrey;
+      border-radius: 50%;
+      cursor: pointer;
+
+      &:hover {
+        background-color: $blue;
+      }
     }
   }
 }

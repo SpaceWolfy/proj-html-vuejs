@@ -47,7 +47,7 @@ export default {
 
   .main {
     margin: 0 auto;
-    width: 1180px;
+    width: 1400px;
 
     .text {
       margin-top: -110px;
