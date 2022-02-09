@@ -7,7 +7,7 @@
       <div class="container">
         <header-box :headerNav="headerNav" />
       </div>
-      <main-section :boxArray="boxArray" />
+      <main-section :boxArray="boxArray" :testimonials="testimonials" />
       <footer-box />
     </div>
   </div>
@@ -83,6 +83,23 @@ export default {
         {
           title: "Product Management",
           image: require("./assets/icons/like-ico.jpg"),
+        },
+      ],
+
+      testimonials: [
+        {
+          personName: "Julia Aann",
+          image: require("./assets/img/26.jpeg"),
+          role: "COO Sofbox",
+          description:
+            "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium vero eos et consectetur accus adip adip",
+        },
+        {
+          personName: "Mac Znder",
+          image: require("./assets/img/27.jpeg"),
+          role: "Manager Sofbox",
+          description:
+            "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium vero eos et consectetur accus adip adip",
         },
       ],
       isLoading: false,

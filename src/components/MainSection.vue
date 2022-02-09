@@ -10,7 +10,7 @@
 
     <feature-section :boxArray="boxArray" />
 
-    <testimonials />
+    <testimonials :testimonials="testimonials" />
 
     <div class="width-cont">
       <posts-section />
@@ -41,6 +41,7 @@ export default {
   },
   props: {
     boxArray: Array,
+    testimonials: Array,
   },
 };
 </script>
