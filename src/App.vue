@@ -7,7 +7,11 @@
       <div class="container">
         <header-box :headerNav="headerNav" />
       </div>
-      <main-section :boxArray="boxArray" :testimonials="testimonials" />
+      <main-section
+        :boxArray="boxArray"
+        :testimonials="testimonials"
+        :posts="posts"
+      />
       <footer-box />
     </div>
   </div>
@@ -100,6 +104,30 @@ export default {
           role: "Manager Sofbox",
           description:
             "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium vero eos et consectetur accus adip adip",
+        },
+      ],
+
+      posts: [
+        {
+          title: "Life Lack Meaning",
+          image: require("./assets/img/17.jpg"),
+          description:
+            "It is a long estabilished fact that a reader will be distracted by the readable.",
+          date: "November 28, 2019",
+        },
+        {
+          title: "Life Lack Meaning",
+          image: require("./assets/img/18.jpg"),
+          description:
+            "It is a long estabilished fact that a reader will be distracted by the readable.",
+          date: "November 28, 2019",
+        },
+        {
+          title: "Life Lack Meaning",
+          image: require("./assets/img/19.jpg"),
+          description:
+            "It is a long estabilished fact that a reader will be distracted by the readable.",
+          date: "November 28, 2019",
         },
       ],
       isLoading: false,
