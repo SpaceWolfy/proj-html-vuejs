@@ -2,6 +2,7 @@
   <div class="card-container">
     <div class="card" v-for="(post, index) in posts" :key="index">
       <img :src="post.image" alt="" />
+      <div class="date">{{ post.date }}</div>
 
       <div class="text">
         <div class="title">{{ post.title }}</div>
@@ -29,9 +30,20 @@ export default {
     width: 340px;
     border: 1px solid #eff1fe;
     border-radius: 5px;
+    position: relative;
 
     img {
       width: 100%;
+    }
+
+    .date {
+      position: absolute;
+      color: #8e989f;
+      padding: 5px 10px;
+      background-color: white;
+      top: 20px;
+      left: 20px;
+      border-radius: 5px;
     }
 
     .text {
