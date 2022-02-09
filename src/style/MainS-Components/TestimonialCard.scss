@@ -13,28 +13,30 @@
       flex-direction: column;
       align-items: center;
       width: 510px;
-      padding: 45px;
+      padding: 35px;
       position: relative;
       border-radius: 3px;
-      background-image: url("../../assets/img/virgolette.png");
-      background-size: 200px;
-      background-position: center;
-      background-repeat: no-repeat;
       border: 1px solid #ebebeb;
       box-shadow: 0px 20px 30px 10px #dedede;
+      background-image: url("../../assets/img/virgolette.png");
+      background-size: 200px;
+      background-position-x: center;
+      background-position-y: 115px;
+      background-repeat: no-repeat;
 
       img {
         width: 60px;
         border-radius: 50%;
         border: 2px solid #f2f2f2;
-        margin-bottom: 45px;
+        margin-top: 10px;
+        margin-bottom: 40px;
       }
 
       .text {
         .name {
           text-align: center;
           font-size: 21px;
-          margin-bottom: 35px;
+          margin-bottom: 25px;
 
           .role {
             font-size: 15px;
