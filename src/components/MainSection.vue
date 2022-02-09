@@ -13,7 +13,7 @@
     <testimonials :testimonials="testimonials" />
 
     <div class="width-cont">
-      <posts-section />
+      <posts-section :posts="posts" />
 
       <contact-section />
     </div>
@@ -42,6 +42,7 @@ export default {
   props: {
     boxArray: Array,
     testimonials: Array,
+    posts: Array,
   },
 };
 </script>
