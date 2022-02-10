@@ -2,6 +2,7 @@
 footer {
   margin-top: 130px;
   border-top: 1px solid #ebebeb;
+  position: relative;
 
   .p-width {
     display: flex;
@@ -49,6 +50,23 @@ footer {
 
     .list-container:nth-child(2) {
       margin: 0 230px;
+    }
+  }
+
+  .go-up {
+    text-align: center;
+    line-height: 50px;
+    font-size: 18px;
+    background-color: #b2b2b2;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    border-radius: 50%;
+
+    a {
+      color: white;
     }
   }
 }

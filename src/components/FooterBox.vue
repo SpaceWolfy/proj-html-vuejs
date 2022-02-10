@@ -27,6 +27,9 @@
         </div>
       </div>
     </div>
+    <div class="go-up">
+      <a href="#home"> <i class="fa-solid fa-angle-up"> </i></a>
+    </div>
   </footer>
 </template>
 

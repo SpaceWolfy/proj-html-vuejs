@@ -31,7 +31,7 @@ export default {
       headerNav: [
         {
           voice: "Home",
-          href: "#app",
+          href: "#home",
         },
 
         {
