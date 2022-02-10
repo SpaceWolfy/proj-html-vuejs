@@ -29,7 +29,7 @@ export default {
   .card {
     padding: 10px;
     width: 340px;
-    border: 1px solid #eff1fe;
+    border: 1px solid $border1;
     border-radius: 5px;
     position: relative;
 
