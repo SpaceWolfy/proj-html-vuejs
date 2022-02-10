@@ -29,8 +29,7 @@ export default {
   components: { HeaderBox, MainSection, FooterBox, LoadingScreen },
   data() {
     return {
-      //array semplice - TODO: trasformazione in array di oggetti con link di collegamento alle sezioni del sito
-      /* headerNav: ["Home", "About Us", "Feature", "Testimonials", "Contact US"], */
+      //array(obj) for header
       headerNav: [
         {
           voice: "Home",
@@ -55,6 +54,7 @@ export default {
         },
       ],
 
+      //array(obj) for features section
       boxArray: [
         {
           title: "Customized Invoices",
@@ -91,6 +91,7 @@ export default {
         },
       ],
 
+      /* Array(obj) for testimonials carousel */
       testimonials: [
         {
           personName: "Julia Aann",
@@ -117,7 +118,9 @@ export default {
             "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium vero eos et consectetur accus adip adip",
         },
       ],
+      /*  */
 
+      //array(obj) for post section
       posts: [
         {
           title: "Life Lack Meaning",
@@ -141,6 +144,8 @@ export default {
           date: "November 28, 2019",
         },
       ],
+
+      //array(obj) for Footer section
       footerNav: [
         {
           section: "Menu",
@@ -159,6 +164,7 @@ export default {
     };
   },
   mounted() {
+    //Gestisce il tempo di visualizzazione del loading screen
     setTimeout(() => (this.isLoading = true), 3000);
   },
 };
@@ -166,10 +172,4 @@ export default {
 
 <style lang="scss">
 @import "@/style/Main.scss";
-#app {
-  .container {
-    width: 1400px;
-    margin: 0 auto;
-  }
-}
 </style>
