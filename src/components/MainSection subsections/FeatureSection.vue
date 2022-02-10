@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="main" id="features">
+    <div class="p-width" id="features">
       <div class="circle">
         <img src="../../assets/img/14.png" alt="" />
       </div>

@@ -1,5 +1,5 @@
 <template>
-  <header>
+  <header class="p-width">
     <div class="logo"><img src="../assets/img/logo-2.png" alt="" /></div>
 
     <div class="right-side">

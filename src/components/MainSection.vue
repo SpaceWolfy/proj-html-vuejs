@@ -1,6 +1,6 @@
 <template>
   <main>
-    <div class="width-cont">
+    <div class="p-width">
       <jumbo-section />
 
       <about-us />
@@ -15,7 +15,7 @@
       :testimonialsP2="testimonialsP2"
     />
 
-    <div class="width-cont">
+    <div class="p-width">
       <posts-section :posts="posts" />
 
       <contact-section />
@@ -51,9 +51,4 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
-.width-cont {
-  width: 1400px;
-  margin: 0 auto;
-}
-</style>
+<style lang="scss" scoped></style>

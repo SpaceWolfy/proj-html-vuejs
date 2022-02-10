@@ -1,7 +1,7 @@
 <template>
   <div class="wave-bg">
     <img src="../../assets/img/15.png" alt="" />
-    <div class="main">
+    <div class="p-width">
       <div class="text">
         <div class="title" id="testimonials">Our Testimonials</div>
         <p>
@@ -49,10 +49,7 @@ export default {
     rgba(242, 247, 255, 1) 100%
   );
 
-  .main {
-    margin: 0 auto;
-    width: 1400px;
-
+  .p-width {
     .text {
       margin-top: -110px;
       text-align: center;

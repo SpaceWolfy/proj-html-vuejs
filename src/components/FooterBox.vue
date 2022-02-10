@@ -1,6 +1,6 @@
 <template>
   <footer>
-    <div class="main">
+    <div class="p-width">
       <div class="left-side">
         <img src=".././assets/img/35.png" alt="" />
 
