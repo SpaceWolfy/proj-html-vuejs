@@ -12,7 +12,10 @@
       </div>
 
       <div class="testimonial-card">
-        <testimonial-card :testimonial="testimonials" />
+        <testimonial-card
+          :testimonial="testimonials"
+          :testimonialsP2="testimonialsP2"
+        />
       </div>
     </div>
   </div>
@@ -24,6 +27,7 @@ export default {
   components: { TestimonialCard },
   props: {
     testimonials: Array,
+    testimonialsP2: Array,
   },
 };
 </script>

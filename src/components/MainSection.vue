@@ -10,7 +10,10 @@
 
     <feature-section :boxArray="boxArray" />
 
-    <testimonials :testimonials="testimonials" />
+    <testimonials
+      :testimonials="testimonials"
+      :testimonialsP2="testimonialsP2"
+    />
 
     <div class="width-cont">
       <posts-section :posts="posts" />
@@ -42,6 +45,7 @@ export default {
   props: {
     boxArray: Array,
     testimonials: Array,
+    testimonialsP2: Array,
     posts: Array,
   },
 };

@@ -10,6 +10,7 @@
       <main-section
         :boxArray="boxArray"
         :testimonials="testimonials"
+        :testimonialsP2="testimonialsPageTwo"
         :posts="posts"
       />
       <footer-box :footerNav="footerNav" />
@@ -98,6 +99,16 @@ export default {
           description:
             "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium vero eos et consectetur accus adip adip",
         },
+        {
+          personName: "Mac Znder",
+          image: require("./assets/img/27.jpeg"),
+          role: "Manager Sofbox",
+          description:
+            "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium vero eos et consectetur accus adip adip",
+        },
+      ],
+
+      testimonialsPageTwo: [
         {
           personName: "Mac Znder",
           image: require("./assets/img/27.jpeg"),
