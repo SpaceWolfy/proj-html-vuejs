@@ -3,7 +3,7 @@
     <img src="../../assets/img/15.png" alt="" />
     <div class="main">
       <div class="text">
-        <div class="title">Our Testimonials</div>
+        <div class="title" id="testimonials">Our Testimonials</div>
         <p>
           If you are planning on developing a product landing app or website,
           <br />
