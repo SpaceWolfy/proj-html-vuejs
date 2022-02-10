@@ -41,11 +41,16 @@
       margin-bottom: 30px;
       height: 120px;
       border: 1px solid #f0f0f0;
+      border-radius: 5px;
       box-shadow: 0px 0px 20px 20px #f0f0f0;
       height: 160px;
 
-      &:hover .text-cont {
+      &:hover {
         color: $blue;
+        /* color: white;
+        background-color: #7fdec8; */
+        border: 1px solid #7fdec8;
+        box-shadow: 10px 10px 10px 0px #7fdec8;
       }
       .text-cont {
         font-size: 20px;
