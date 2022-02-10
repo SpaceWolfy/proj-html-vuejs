@@ -12,7 +12,7 @@
         :testimonials="testimonials"
         :posts="posts"
       />
-      <footer-box />
+      <footer-box :footerNav="footerNav" />
     </div>
   </div>
 </template>
@@ -128,6 +128,20 @@ export default {
           description:
             "It is a long estabilished fact that a reader will be distracted by the readable.",
           date: "November 28, 2019",
+        },
+      ],
+      footerNav: [
+        {
+          section: "Menu",
+          voice: ["About us", "Theme", "Features", "Pricing", "Blog"],
+        },
+        {
+          section: "About Us",
+          voice: ["About Sofbox", "Roadmap", "How it works", "Team", "News"],
+        },
+        {
+          section: "Quick Links",
+          voice: ["About us", "Theme", "Features", "Pricing", "Blog"],
         },
       ],
       isLoading: false,
