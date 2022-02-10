@@ -1,5 +1,5 @@
 <template>
-  <div class="container" id="testimonials">
+  <div class="container">
     <div class="carousel">
       <div class="carousel-item" v-show="toggle">
         <div class="card-container">
