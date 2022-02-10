@@ -1,4 +1,4 @@
-@import "@/style/Variables.scss";
+@import "@/style/Utility.scss";
 footer {
   margin-top: 130px;
   border-top: 1px solid #ebebeb;
@@ -43,7 +43,6 @@ footer {
         li {
           color: $grey;
           line-height: 40px;
-          cursor: pointer;
         }
       }
     }

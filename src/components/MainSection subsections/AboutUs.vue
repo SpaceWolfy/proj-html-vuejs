@@ -24,7 +24,7 @@ export default {};
 </script>
 
 <style lang="scss" scoped>
-@import "@/style/Variables.scss";
+@import "@/style/Utility.scss";
 .main {
   margin: 180px 90px;
   display: flex;

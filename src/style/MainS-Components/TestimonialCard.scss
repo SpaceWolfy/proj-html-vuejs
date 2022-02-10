@@ -1,4 +1,4 @@
-@import "@/style/Variables.scss";
+@import "@/style/Utility.scss";
 
 .container {
   margin: 0;
@@ -90,7 +90,6 @@
           width: 10px;
           background-color: $darkGrey;
           border-radius: 50%;
-          cursor: pointer;
 
           &:hover {
             background-color: $blue;
