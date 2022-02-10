@@ -21,7 +21,7 @@ footer {
     }
 
     .copyright {
-      color: #8e989f;
+      color: $grey;
       span {
         color: $blue;
       }
@@ -41,7 +41,7 @@ footer {
 
       ul {
         li {
-          color: #8e989f;
+          color: $grey;
           line-height: 40px;
           cursor: pointer;
         }

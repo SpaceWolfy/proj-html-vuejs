@@ -21,6 +21,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "@/style/Variables.scss";
 .card-container {
   display: flex;
   padding: 0 160px;
@@ -38,7 +39,7 @@ export default {
 
     .date {
       position: absolute;
-      color: #8e989f;
+      color: $grey;
       padding: 5px 10px;
       background-color: white;
       top: 20px;
