@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="main">
+    <div class="main" id="contacts">
       <div class="text">
         <div class="title">Contact with our team</div>
         <p>If you are planning on developing a product landing.</p>
