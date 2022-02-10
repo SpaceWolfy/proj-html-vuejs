@@ -22,7 +22,7 @@
       </header>
       <div class="flex-box">
         <div
-          class="box-container"
+          class="box-container c-pointer"
           v-for="(card, index) in boxArray"
           :key="index"
         >

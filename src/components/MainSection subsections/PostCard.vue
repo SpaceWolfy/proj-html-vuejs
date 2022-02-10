@@ -21,7 +21,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "@/style/Variables.scss";
+@import "@/style/Utility.scss";
 .card-container {
   display: flex;
   padding: 0 160px;

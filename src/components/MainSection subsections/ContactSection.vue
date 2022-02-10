@@ -15,7 +15,7 @@
               alt=""
             />
 
-            <div class="indicazioni">
+            <div class="indicazioni c-pointer">
               <div class="left-part">
                 <div>Storey Ave</div>
                 <div>San Francisco, California 94129</div>
@@ -27,7 +27,7 @@
               </div>
             </div>
 
-            <div class="zoom">
+            <div class="zoom c-pointer">
               <i class="fas fa-plus"></i>
               <div class="line"></div>
               <i class="fas fa-minus"></i>
@@ -37,7 +37,7 @@
               <img src="../../assets/img/pointmap.png" alt="" />
             </div>
 
-            <div class="legal-info">
+            <div class="legal-info c-pointer">
               <div>Dati mappa ©2020</div>
               <div>Termini e condizioni d'uso</div>
               <div>Segnala un errore nella mappa</div>
@@ -57,7 +57,7 @@
 
           <div class="social">
             <div
-              class="icon-cont"
+              class="icon-cont c-pointer"
               v-for="(social, index) in social"
               :key="index"
             >

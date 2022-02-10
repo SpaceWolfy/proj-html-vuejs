@@ -9,7 +9,7 @@
         </p>
       </div>
 
-      <div class="info-container shadowed">
+      <div class="info-container shadowed c-pointer">
         <div class="info-img">
           <img src="../../assets/img/510.png" alt="" />
         </div>
@@ -22,7 +22,7 @@
         </div>
       </div>
 
-      <div class="info-container">
+      <div class="info-container c-pointer">
         <div class="info-img">
           <img src="../../assets/img/511.png" alt="" />
         </div>

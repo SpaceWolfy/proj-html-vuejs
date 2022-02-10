@@ -43,7 +43,6 @@
           left: 10px;
           padding: 10px;
           display: flex;
-          cursor: pointer;
 
           .left-part {
             div:first-child {
@@ -90,7 +89,6 @@
           right: 10px;
           bottom: 25px;
           border: 1px solid #e6e6e6;
-          cursor: pointer;
 
           .line {
             border-top: 1px solid #e6e6e6;
@@ -121,7 +119,6 @@
             background-color: rgba($color: #e6f1e6, $alpha: 0.8);
             padding: 2px 8px;
             margin-left: 2px;
-            cursor: pointer;
           }
         }
       }
@@ -164,7 +161,6 @@
         border: 1px solid $border1;
         border-radius: 5px;
         margin-right: 10px;
-        cursor: pointer;
       }
     }
 

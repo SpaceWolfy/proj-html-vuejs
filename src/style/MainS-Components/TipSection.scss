@@ -1,4 +1,4 @@
-@import "@/style/Variables.scss";
+@import "@/style/Utility.scss";
 .main {
   margin: 0 90px;
   display: flex;
@@ -25,7 +25,6 @@
       padding: 20px;
       display: flex;
       border: 1px solid transparent;
-      cursor: pointer;
 
       .info-img {
         align-self: center;
