@@ -2,11 +2,13 @@
 @import "@/style/Utility.scss";
 
 header {
-  height: 70px;
-  margin: 2px 130px 20px 130px;
+  height: 75px;
+  padding: 0 130px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 1400px;
+  margin: 0px auto 10px auto;
 
   .logo {
     width: 45px;

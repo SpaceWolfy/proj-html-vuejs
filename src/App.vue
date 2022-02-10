@@ -4,9 +4,7 @@
       <loading-screen />
     </div>
     <div v-else>
-      <div class="container">
-        <header-box :headerNav="headerNav" />
-      </div>
+      <header-box :headerNav="headerNav" />
       <main-section
         :boxArray="boxArray"
         :testimonials="testimonials"
