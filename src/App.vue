@@ -110,9 +110,9 @@ export default {
 
       testimonialsPageTwo: [
         {
-          personName: "Mac Znder",
-          image: require("./assets/img/27.jpeg"),
-          role: "Manager Sofbox",
+          personName: "Cipolletta",
+          image: require("./assets/img/25.jpeg"),
+          role: "Sofbox Lawyer",
           description:
             "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium vero eos et consectetur accus adip adip",
         },
