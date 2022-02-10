@@ -42,6 +42,10 @@
               <div>Termini e condizioni d'uso</div>
               <div>Segnala un errore nella mappa</div>
             </div>
+
+            <div class="place-img">
+              <img src="../../assets/img/mountain.jpg" alt="" />
+            </div>
           </div>
         </div>
 
